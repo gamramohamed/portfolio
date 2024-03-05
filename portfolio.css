@@ -1,0 +1,83 @@
+.body {
+  background-color: rgb(255, 255, 255);
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Wix Madefor Text";
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  margin-top: 10px;
+  border-bottom: 3px;
+  border-bottom-style: solid;
+  padding-bottom: 5px;
+  align-items: center;
+}
+.Portfolio {
+  display: flex;
+  cursor: default;
+  align-items: center;
+  gap: 10px;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.HOME {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.HOME:hover {
+  color: rgb(0, 225, 255);
+  transition: 0.15s;
+}
+.Welcome {
+  font-size: 65px;
+}
+.profil {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-left: 50px;
+  gap: 150px;
+}
+.paper {
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.918);
+}
+.W {
+  font-size: 65px;
+  color: rgb(184, 181, 181);
+  text-align: center;
+}
+.images {
+  width: 300px;
+}
+.photo {
+  width: 300px;
+  right: 140px;
+  border-radius: 65px;
+  top: 230px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.822);
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+button {
+  padding: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  font-family: "Wix Madefor Text";
+  font-size: medium;
+}
+button:hover{
+  box-shadow: 0 0 15PX rgba(0, 0, 0, 0.849);
+}
